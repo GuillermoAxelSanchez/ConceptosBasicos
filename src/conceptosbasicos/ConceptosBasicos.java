@@ -20,11 +20,26 @@ public class ConceptosBasicos {
     public static void main(String[] args) {
         // TODO code application logic here
         Automovil miBocho = new Automovil();
+        Automovil miAcura = new Automovil();
+        Automovil miMustang = new Automovil();
+        
         miBocho.setMarca("VW");
         miBocho.setSubMarca("Sedán");
         miBocho.setModelo(1970);
         miBocho.setColor(Color.blue);
         System.out.println(miBocho);
+       
+        miAcura.setMarca("Acura");
+        miAcura.setSubMarca("NSX");
+        miAcura.setModelo(2013);
+        miAcura.setColor(Color.gray);
+        System.out.println(miAcura);
+                
+        miMustang.setMarca("Ford");
+        miMustang.setSubMarca("Mustang");
+        miMustang.setModelo(2010);
+        miMustang.setColor(Color.yellow);
+        System.out.println(miMustang);
     }
     
 }
