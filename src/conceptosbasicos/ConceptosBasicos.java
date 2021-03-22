@@ -25,7 +25,8 @@ public class ConceptosBasicos {
         
         miBocho.setMarca("VW");
         miBocho.setSubMarca("Sedán");
-        miBocho.setModelo(1970);
+        miBocho.setModelo(5000);
+       // miBocho.modelo=5000;//Enn peligro la integridad de la lógica
         miBocho.setColor(Color.blue);
         System.out.println(miBocho);
        
